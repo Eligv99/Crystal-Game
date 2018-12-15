@@ -1,4 +1,3 @@
- 
 // function will work when the page uploads
 $(document).ready(function(){
 
