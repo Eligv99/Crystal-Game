@@ -1,0 +1,115 @@
+body{
+    /* background-color: rgba(111, 0, 255, 0.74); */
+    background: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BVmFKuwPxiyef0p7o/loopable-crystal-background_bdgkfadpl_thumbnail-full01.png')center;
+}
+
+h1 {
+    color: white;
+    background-color: rgb(65, 32, 155);
+    width: 13%;
+    height: 4%;
+    padding: 1%;
+    margin: 1%;
+    font-size: 148%;
+    margin-left: 40%
+
+}
+
+.container {
+    background-color: rgb(0, 12, 10);
+    color: rgb(93, 10, 226);
+    width: 53%;
+    padding: 1%;
+    height: 27%;
+    font-size: 108%;
+    margin: 1%;
+    margin-left: 23%;
+}
+
+
+.random-number {
+    float: left;
+    clear: both;
+    width: 23%;
+    height: 15%;
+    background: rgb(55, 0, 128);
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-left: 33%;
+}
+
+#number {
+    padding: 3%;
+    font-size: 180%;
+    position: absolute;
+}
+
+#buttonBox{
+    clear: both;
+    position: relative;
+    padding: 1%;
+    margin-left: 33%;
+}
+
+#greenGem {
+	height:100px;
+	width: 100px;
+	float:left;
+	margin-left: 20px;
+	margin-right: 5px;
+}
+#purpleGem {
+	height:100px;
+	width: 100px;
+	float:left;
+	margin-right: 5px;
+}
+
+#redGem {
+	height:100px;
+	width: 100px;
+	float:left;
+	margin-right: 5px;
+}
+
+#blueGem{
+	height:100px;
+	width: 100px;
+}
+
+.container-points {
+    background-color: rgb(91, 42, 124);
+    width: 7%;
+    height: 9%;
+    margin-top: 1%;
+    padding: 23px;
+    float: left;
+}
+
+.container-value {
+    float: left;
+    clear: both;
+    background: rgb(47, 130, 168);
+    width: 23%;
+    height: 11%;
+    margin: 1%;
+    margin-left: 12%;
+}
+
+.number-value{
+    font-size: 151%;
+    padding: 15%;
+}
+
+.total {
+    float: left;
+    clear: both;
+    background: rgb(47, 130, 168);
+    width: 23%;
+    margin: 1%;
+    margin-left: 12%;;
+}
+
+
+
+

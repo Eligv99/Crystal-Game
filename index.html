@@ -1,0 +1,98 @@
+<html lang="en-us"><head>
+    <meta charset="utf-8">
+    <title>Cristal Collector !</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/reset.css"> 
+    <link rel="stylesheet" href="assets/css/style.css">  
+
+  </head>
+
+  <body>
+
+    <div class="main-container">
+
+      <!-- Header -->
+      <h1>Crystals Collector!</h1>
+
+      <!-- Paragraph -->
+      <div class="container">
+        <p>You will be given a random number at the start of the game</p>
+
+        <br>
+
+        <p>
+          There are four crystals below. By clicking on a crystal you
+          will add a specific amount of points to your total score.
+        </p>
+
+        <br>
+
+        <p>
+
+          You win the game by matching your total score to random
+          number, you lose the game if your total score goes above
+          the random number.
+        </p>
+
+        <br>
+
+        <p>
+          The value of each crystal is hidden from you until you
+          click on it.
+        </p>
+    
+        <br>
+
+        <p>
+          Each time when the game starts, the game will change the values
+          of each crystal
+        </p>
+
+      </div>
+
+      <!-- Random Number -->
+      <div class="random-number">
+        <span id="number"></span>
+      </div>
+
+      <!-- Wins and Losses -->
+      <div class="container-points">
+        <p>Wins :<span class="win"></span></p>
+        <br>
+        <p>Loss :<span class="lose"></span></p>
+      </div>
+
+      <!-- Images -->
+      <div id="buttonBox">
+          <div type="button" class="crystal1">
+            <img id="greenGem" src="assets/images/greenGem.jpg">
+      
+          <div type="button" class="crystal2">
+            <img id="purpleGem" src="assets/images/purpleGem.jpg">
+      
+          <div type="button" class="crystal3">
+            <img id="redGem" src="assets/images/redGem.jpg">
+      
+          <div type="button" class="crystal4">
+            <img id="blueGem" src="assets/images/blueGem.jpg">
+        </div>
+
+      <!-- Total number print -->
+      <p class="total">The total is:</p>
+      
+      <!-- Value of Cristal -->
+      <div class="container-value">
+        <div class="number-value">Value</div>
+      </div>
+
+    </div>
+
+    <!-- Jquery link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--Javascript link -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+  </body>
+
+</html>
