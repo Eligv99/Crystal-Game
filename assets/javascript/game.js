@@ -33,34 +33,32 @@ $(document).ready(function(){
     
     // This function will set all values to a new one to continue the game
     function reset (){
-        //The computer will choose a new random number to reset it 
-        var computerChoice = Math.floor(Math.random() * (120-19 +1)) + 19;
-        console.log("This is computerChoice " + computerChoice);
 
-        //The computer choice will be displayed in the id called RandomBox
-        $("#number").html(computerChoice)
+        //final total will be 0 
+        finalScore = 0;
+        
+        //Final total will be displayed in the number-value
+        $(".number-value").html(finalScore);
 
         //each gem once again will select a random number between 1-12
         greenGem = Math.floor(Math.random() * 12) +1;
         purpleGem = Math.floor(Math.random() * 12) +1;
         redGem = Math.floor(Math.random() * 12) +1;
         blueGem = Math.floor(Math.random() * 12) +1;
-
-        //final total will be 0 
-        finalScore = 0;
-
-        //Final total will be displayed in the number-value
-        $(".number-value").html(finalScore);
+        
+        //The computer will choose a new random number to reset it 
+        computerChoice = Math.floor(Math.random() * (120-19 +1)) + 19;
+        
+        //The computer choice will be displayed in the id called RandomBox
+        $("#number").html(computerChoice)
     
         //Making sure what type of value the gems are returning
+        console.log("This is computerChoice " + computerChoice);
         console.log("Type of green Gem is " + greenGem)
         console.log("Type of purple Gem is " + purpleGem)
         console.log("Type of red Gem is " + redGem)
         console.log("Type of blue Gem is " + blueGem)
-       
-        //append win/lose variables to the winLoseBox
-        $(".win").html(wins)
-        $(".lose").html(lose)
+                
       
     }
 
@@ -70,11 +68,14 @@ $(document).ready(function(){
         //the win score will go up one point
         wins++
 
+       $(".win").html(wins)
+
         //display the 'You Win!' message to the user
         alert("You Won... Great Job!")
 
         //call the reset function to start the game over again
         reset();
+        
 
 
     }
@@ -84,6 +85,8 @@ $(document).ready(function(){
 
         //The loose score will go up one point
         lose++
+
+        $(".lose").html(lose)
 
         //Display the 'You Lose!' message to the player
         alert("You Lost! Try Again..")
