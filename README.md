@@ -1,4 +1,4 @@
-# unit-4-game
+# Cristal-Game
 
 This is a game primarily built with Javascript and jQuery. Random numbers are generated and assigned to each of the four crystal images on the bottom of the page.
 
