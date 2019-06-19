@@ -7,3 +7,6 @@ A final random number is assigned as the "goal" number that the user is trying t
 jQuery This game is a great demonstrator of the usefulness of jQuery to manipulate the DOM structure. Clicking on each crystal updates the user's score and displays the value in a div. If the user's score goes above or equals the target value, the game is over, and a message is displayed for a short time, and then the number of wins or losses is updated and the game resets.
 
 Functions One thing I did not use extensively in previous projects but decided to get more practice with are functions. Instead of rewriting large blocks of code, I put the two major conditional. It makes the code much cleaner and easier to expand the project in the future, if desired
+
+
+Try it our yourself: https://eligv99.github.io/unit-4-game/
