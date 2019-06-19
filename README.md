@@ -9,4 +9,6 @@ jQuery This game is a great demonstrator of the usefulness of jQuery to manipula
 Functions One thing I did not use extensively in previous projects but decided to get more practice with are functions. Instead of rewriting large blocks of code, I put the two major conditional. It makes the code much cleaner and easier to expand the project in the future, if desired
 
 
-Try it our yourself: https://eligv99.github.io/unit-4-game/
+Try it our yourself:
+
+https://eligv99.github.io/Crystal-Game/
